@@ -30,7 +30,7 @@ Aby aplikace správně komunikovala s backendem:
 1.  Ujisti se, že běží **MonoLogger API**.
 2.  V souboru `src/App.tsx` zkontroluj proměnnou `API_BASE_URL`:
     ```typescript
-    const API_BASE_URL = 'http://localhost:5151/api'; // Změň podle portu tvého backendu
+    const API_BASE_URL = 'http://localhost:5151'; // Změň podle portu tvého backendu
     ```
 3.  **Důležité:** Na straně backendu (C#) musí být povoleno **CORS** pro adresu frontendu.
 
