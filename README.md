@@ -2,14 +2,14 @@
 
 Frontendová aplikace pro vizualizaci logů a statistik z projektu [MonoLogger](https://github.com/Grimhandy321/MonoLogger). Dashboard zobrazuje přehled chyb, aktivitu v čase a nejaktivnější uživatele pomocí interaktivních grafů.
 
-## 🛠 Použité technologie
+## Použité technologie
 
 * **Vite** + **React** (TypeScript)
 * **Mantine UI** (Komponenty a stylování)
 * **Mantine Charts** (Recharts wrapper pro grafy)
 * **Tabler Icons** (Ikony)
 
-## 🚀 Jak spustit projekt
+## Jak spustit projekt
 
 1.  **Nainstaluj závislosti:**
     ```bash
@@ -23,7 +23,7 @@ Frontendová aplikace pro vizualizaci logů a statistik z projektu [MonoLogger](
 
 3.  Otevři prohlížeč na adrese, kterou ti vypíše terminál (obvykle `http://localhost:5173`).
 
-## ⚙️ Konfigurace
+## Konfigurace
 
 Aby aplikace správně komunikovala s backendem:
 
@@ -34,7 +34,7 @@ Aby aplikace správně komunikovala s backendem:
     ```
 3.  **Důležité:** Na straně backendu (C#) musí být povoleno **CORS** pro adresu frontendu.
 
-## 📊 Funkce
+## Funkce
 
 * **Statistiky:** Celkový počet zpráv, chyby, varování, unikátní uživatelé.
 * **Graf aktivity:** Časová osa zobrazující poměr zpráv a chyb.
